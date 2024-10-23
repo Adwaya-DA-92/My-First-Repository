@@ -1,0 +1,13 @@
+# Return on investment as yearwise
+initial_investment = float(input('Enter the initial value of investmet: '))
+annual_return = float(input('Enter the return percentage as a number (e.g., 7 for 7%): '))/100
+years1 = 5
+years2 = 10
+years3 = 20
+years4 = 30
+
+# Calculation for investment return after requerd years 
+print(f'After {years1} years, the initial investment of ${initial_investment} will be $%.2f.' % (initial_investment * (1 + annual_return) ** years1))
+print(f'After {years2} years, the initial investment of ${initial_investment} will be $%.2f.' % (initial_investment * (1 + annual_return) ** years2))
+print(f'After {years3} years, the initial investment of ${initial_investment} will be $%.2f.' % (initial_investment * (1 + annual_return) ** years3))
+print(f'After {years4} years, the initial investment of ${initial_investment} will be $%.2f.' % (initial_investment * (1 + annual_return) ** years4))
